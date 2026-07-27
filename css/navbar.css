@@ -1,0 +1,41 @@
+﻿header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    z-index: 999;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+nav ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+    nav ul li a {
+        color: var(--text);
+        font-weight: 500;
+        transition: .3s;
+    }
+
+        nav ul li a:hover {
+            color: var(--pink);
+        }

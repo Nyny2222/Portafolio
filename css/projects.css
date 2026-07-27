@@ -1,0 +1,64 @@
+﻿.projects {
+    background: var(--light);
+}
+
+    .projects h2 {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 35px;
+}
+
+.card {
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    transition: .35s;
+}
+
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 45px rgba(0,0,0,.08);
+    }
+
+    .card img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+    }
+
+    .card h3 {
+        margin: 30px 30px 15px;
+    }
+
+    .card p {
+        margin: 0 30px;
+        min-height: 130px;
+        line-height: 170%;
+    }
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin: 30px;
+}
+
+    .buttons a {
+        background: var(--pink);
+        color: white;
+        padding: 12px 22px;
+        border-radius: 30px;
+        font-size: .9rem;
+        font-weight: 600;
+        transition: .3s;
+    }
+
+        .buttons a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(255,111,181,.25);
+        }
