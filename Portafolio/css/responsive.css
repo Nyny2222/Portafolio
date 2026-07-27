@@ -1,0 +1,26 @@
+﻿@media(max-width:900px) {
+
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .description {
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        width: 90%;
+    }
+}
